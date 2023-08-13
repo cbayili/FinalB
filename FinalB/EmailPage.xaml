@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalB.EmailPage"
+             Title="Email">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="https://clarksvillenow.sagacom.com/wp-content/blogs.dir/43/files/2014/04/New-APSU-Logo.jpg"
+               SemanticProperties.Description="The dot net bot waving hello!"
+               HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Christian B." VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text=" Hi! My name is Christian Bayili agraduated stutent. I am looking for a job if you come accross job announcement reach me at the email below. " />
+        <Label Text="cbayili@my.apsu.edu" />
+  
+    </VerticalStackLayout>

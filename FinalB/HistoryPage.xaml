@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalB.HistoryPage"
+             Title="HistoryPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="https://aka.ms/campus.jpg"
+               SemanticProperties.Description="The dot net bot waving hello!"
+               HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Christian B." VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text="  Once upon a time, in a small town nestled between rolling hills, lived a man named Michael. He was a kind-hearted, devout Christian, and a proud veteran who had served his country with honor and courage. After completing his military service, Christian returned home with a deep sense of gratitude and a desire to continue making a positive impact on the world." />
+
+    </VerticalStackLayout>
+</ContentPage>
